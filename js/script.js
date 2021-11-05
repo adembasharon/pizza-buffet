@@ -58,7 +58,7 @@ const totals = grandTotal.reduce((previousValue , currentValue)=>{
     },0)
 
     complete.innerHTML=`
-<p>Thank You For Shopping with Pizza Buffet Your Order Will Be Delivered at Your DoorStep, Your ToTal is ${totals}</p>`
+<p>Thank You For Shopping with Pizza Buffet Your Order Will Be Delivered at Your DoorStep with an extra amount of 200/=, Your ToTal amount is ${totals}</p>`
 console.log(totals);
 
     //const newPizza = new Pizza()

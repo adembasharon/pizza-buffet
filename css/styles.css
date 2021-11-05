@@ -37,15 +37,7 @@
     background-color:chocolate;
     color:black;
 }
-/* .image1{
-    background-image: url("../images/background.jpeg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
- */
- .style-center{
+.style-center{
      font-size: 1.4rem;
  }
 .paragraph{
@@ -151,7 +143,6 @@ background-size: cover;
 
 }
 .joined-arrays{
-/* text-align: center; */
 gap: 5em;
     
 
@@ -174,10 +165,6 @@ gap: 5em;
     border-radius: 4%;
 }
 
-.pizza-list{
-    /* display: none; */
-
-}
 
 .order-header, .order-list {
     width: 50%;
@@ -192,10 +179,11 @@ gap: 5em;
     background-color: blanchedalmond;
     border: none;
 }
-
-.info-com{
-    /* display: none; */
+.pizza-list{
+    font-weight: 600;
+    font-size: 1.3rem;
 }
+
 .bars{
     margin-left: 4em;
     margin-bottom: 2em;
@@ -250,6 +238,7 @@ align-items: center;
 .order-header{
     font-size: 1rem;
     flex-wrap: wrap;
+    font-weight: 600;
     align-items: center;
 }
 .delivery{
