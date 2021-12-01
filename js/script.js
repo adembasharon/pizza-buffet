@@ -100,15 +100,13 @@ Pizza.prototype.addPizza = function(pizza){
 
 
 console.log(addBtnArray)
+
 window.addEventListener("scroll", ()=>{
 
     if(window.scrollY >=50) {
          myHeader.classList.add("fixed");
-
-         
-
-            
-    }
+        
+        }
     else{
         myHeader.classList.remove("fixed");
     }
